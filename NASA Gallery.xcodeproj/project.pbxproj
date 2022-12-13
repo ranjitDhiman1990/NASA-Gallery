@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E8D9D09294359E900B865B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D9D08294359E900B865B5 /* SceneDelegate.swift */; };
 		1EAE71052942267C009CD7E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE71042942267C009CD7E1 /* AppDelegate.swift */; };
-		1EAE71072942267C009CD7E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE71062942267C009CD7E1 /* SceneDelegate.swift */; };
-		1EAE71092942267C009CD7E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE71082942267C009CD7E1 /* ViewController.swift */; };
+		1EAE71092942267C009CD7E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE71082942267C009CD7E1 /* HomeViewController.swift */; };
 		1EAE710C2942267C009CD7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE710A2942267C009CD7E1 /* Main.storyboard */; };
 		1EAE710E2942267E009CD7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE710D2942267E009CD7E1 /* Assets.xcassets */; };
 		1EAE71112942267E009CD7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE710F2942267E009CD7E1 /* LaunchScreen.storyboard */; };
+		1EAE71262942522A009CD7E1 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE71252942522A009CD7E1 /* GalleryCollectionViewCell.swift */; };
+		1EF42CAF2944603100EC3DD4 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF42CAE2944603100EC3DD4 /* DetailsViewController.xib */; };
+		1EF42CB229446C8900EC3DD4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF42CB129446C8900EC3DD4 /* Reachability.swift */; };
+		1EF42CB62944E88200EC3DD4 /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF42CB52944E88200EC3DD4 /* CustomModalViewController.swift */; };
+		1EF6A39D294374D200D373C7 /* NASA.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6A39C294374D200D373C7 /* NASA.json */; };
+		1EF6A3A02943863900D373C7 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6A39F2943863900D373C7 /* MediaModel.swift */; };
+		1EF6A3A72944540B00D373C7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6A3A62944540B00D373C7 /* DetailsViewController.swift */; };
+		BFD1B4D3DB4DCD137FBBDFFD /* Pods_NASA_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BA7D391B15F13C70955B32 /* Pods_NASA_Gallery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA1D43AB8689BE92A515671 /* Pods-NASA Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASA Gallery.debug.xcconfig"; path = "Target Support Files/Pods-NASA Gallery/Pods-NASA Gallery.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8D9D06294358FA00B865B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8D9D08294359E900B865B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1EAE71012942267C009CD7E1 /* NASA Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAE71042942267C009CD7E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EAE71062942267C009CD7E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EAE71082942267C009CD7E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EAE71082942267C009CD7E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1EAE710B2942267C009CD7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EAE710D2942267E009CD7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EAE71102942267E009CD7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EAE71122942267E009CD7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAE71252942522A009CD7E1 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		1EF42CAE2944603100EC3DD4 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		1EF42CB129446C8900EC3DD4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1EF42CB42944D20800EC3DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1EF42CB52944E88200EC3DD4 /* CustomModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
+		1EF6A39C294374D200D373C7 /* NASA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NASA.json; sourceTree = "<group>"; };
+		1EF6A39F2943863900D373C7 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		1EF6A3A62944540B00D373C7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A3681DA788F61BD5E19425EE /* Pods-NASA Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASA Gallery.release.xcconfig"; path = "Target Support Files/Pods-NASA Gallery/Pods-NASA Gallery.release.xcconfig"; sourceTree = "<group>"; };
+		E5BA7D391B15F13C70955B32 /* Pods_NASA_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASA_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD1B4D3DB4DCD137FBBDFFD /* Pods_NASA_Gallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,8 @@
 			children = (
 				1EAE71032942267C009CD7E1 /* NASA Gallery */,
 				1EAE71022942267C009CD7E1 /* Products */,
+				BE62982A5A4EC81153C413C1 /* Pods */,
+				585C2D8849C0F45A1B02E93E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,71 @@
 		1EAE71032942267C009CD7E1 /* NASA Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				1EF42CB029446C2500EC3DD4 /* Utils */,
+				1EF6A39E2943861000D373C7 /* Models */,
+				1E8D9D06294358FA00B865B5 /* Info.plist */,
+				1EAE7124294251F9009CD7E1 /* Views */,
+				1EAE711C29424AFE009CD7E1 /* ViewControllers */,
 				1EAE71042942267C009CD7E1 /* AppDelegate.swift */,
-				1EAE71062942267C009CD7E1 /* SceneDelegate.swift */,
-				1EAE71082942267C009CD7E1 /* ViewController.swift */,
+				1E8D9D08294359E900B865B5 /* SceneDelegate.swift */,
+				1EF6A39C294374D200D373C7 /* NASA.json */,
 				1EAE710A2942267C009CD7E1 /* Main.storyboard */,
 				1EAE710D2942267E009CD7E1 /* Assets.xcassets */,
 				1EAE710F2942267E009CD7E1 /* LaunchScreen.storyboard */,
-				1EAE71122942267E009CD7E1 /* Info.plist */,
 			);
 			path = "NASA Gallery";
+			sourceTree = "<group>";
+		};
+		1EAE711C29424AFE009CD7E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EF42CB52944E88200EC3DD4 /* CustomModalViewController.swift */,
+				1EAE71082942267C009CD7E1 /* HomeViewController.swift */,
+				1EF6A3A62944540B00D373C7 /* DetailsViewController.swift */,
+				1EF42CAE2944603100EC3DD4 /* DetailsViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EAE7124294251F9009CD7E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE71252942522A009CD7E1 /* GalleryCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1EF42CB029446C2500EC3DD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1EF42CB129446C8900EC3DD4 /* Reachability.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1EF6A39E2943861000D373C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6A39F2943863900D373C7 /* MediaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		585C2D8849C0F45A1B02E93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA7D391B15F13C70955B32 /* Pods_NASA_Gallery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE62982A5A4EC81153C413C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DA1D43AB8689BE92A515671 /* Pods-NASA Gallery.debug.xcconfig */,
+				A3681DA788F61BD5E19425EE /* Pods-NASA Gallery.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EAE71152942267E009CD7E1 /* Build configuration list for PBXNativeTarget "NASA Gallery" */;
 			buildPhases = (
+				C3E180A9244A6594B05581B5 /* [CP] Check Pods Manifest.lock */,
 				1EAE70FD2942267C009CD7E1 /* Sources */,
 				1EAE70FE2942267C009CD7E1 /* Frameworks */,
 				1EAE70FF2942267C009CD7E1 /* Resources */,
+				7C7AE4FB090B1E013908FD07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF6A39D294374D200D373C7 /* NASA.json in Resources */,
 				1EAE71112942267E009CD7E1 /* LaunchScreen.storyboard in Resources */,
+				1EF42CAF2944603100EC3DD4 /* DetailsViewController.xib in Resources */,
 				1EAE710E2942267E009CD7E1 /* Assets.xcassets in Resources */,
 				1EAE710C2942267C009CD7E1 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +215,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C7AE4FB090B1E013908FD07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASA Gallery/Pods-NASA Gallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASA Gallery/Pods-NASA Gallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NASA Gallery/Pods-NASA Gallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E180A9244A6594B05581B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NASA Gallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EAE70FD2942267C009CD7E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EAE71092942267C009CD7E1 /* ViewController.swift in Sources */,
+				1E8D9D09294359E900B865B5 /* SceneDelegate.swift in Sources */,
+				1EF42CB62944E88200EC3DD4 /* CustomModalViewController.swift in Sources */,
+				1EAE71092942267C009CD7E1 /* HomeViewController.swift in Sources */,
 				1EAE71052942267C009CD7E1 /* AppDelegate.swift in Sources */,
-				1EAE71072942267C009CD7E1 /* SceneDelegate.swift in Sources */,
+				1EAE71262942522A009CD7E1 /* GalleryCollectionViewCell.swift in Sources */,
+				1EF6A3A02943863900D373C7 /* MediaModel.swift in Sources */,
+				1EF6A3A72944540B00D373C7 /* DetailsViewController.swift in Sources */,
+				1EF42CB229446C8900EC3DD4 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +280,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1EAE710B2942267C009CD7E1 /* Base */,
+				1EF42CB42944D20800EC3DD4 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -216,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,26 +412,31 @@
 		};
 		1EAE71162942267E009CD7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA1D43AB8689BE92A515671 /* Pods-NASA Gallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P36U278DA2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NASA Gallery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NASA Gallery";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nasagallery.app.NASA-Gallery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.nasagallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,26 +445,31 @@
 		};
 		1EAE71172942267E009CD7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3681DA788F61BD5E19425EE /* Pods-NASA Gallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P36U278DA2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NASA Gallery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NASA Gallery";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nasagallery.app.NASA-Gallery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.nasagallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
